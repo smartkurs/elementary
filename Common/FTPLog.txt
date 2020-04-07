@@ -1,0 +1,39 @@
+Ouverture de la connexion, veuillez patienter ...
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 959 of 3900 allowed.
+220-Local time is now 14:19. Server port: 21.
+220-This is a private system - No anonymous login
+220 You will be disconnected after 60 seconds of inactivity.
+USER ********
+331 User b33_25481365 OK. Password required
+PASS ********
+230-Your bandwidth usage is restricted
+230 OK. Current restricted directory is /
+CWD /
+250 OK. Current directory is /
+CWD www
+550 Can't change directory to www: No such file or directory
+CWD public_html
+550 Can't change directory to public_html: No such file or directory
+CWD htdocs
+250 OK. Current directory is /htdocs
+PWD
+257 "/htdocs" is your current location
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (185,27,134,11,230,144)
+STOR hostGetParam.php
+150 Accepted data connection
+226-File successfully transferred
+226 0.165 seconds (measured here), 5.61 Kbytes per second
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+En attente de réponse du serveur FTP, veuillez patienter ...
+Déconnexion du serveur
+QUIT
+500 ?
